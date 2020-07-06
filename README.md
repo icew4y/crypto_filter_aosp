@@ -1,19 +1,31 @@
 # crypto_filter_aosp
+监控java层的加密算法一个ROM
 下载地址:
 链接：https://pan.baidu.com/s/1WJxiX2nQ7xuY2QH1bz_Otg 
 提取码：m5u4 
 
 用于过滤java层的加密算法一个ROM
+
 基于android6.0.1
+
 适用手机型号Nexus 6P
+
 使用办法:
+
 1.手机先刷入twrp
+
 2.下载rom解压，adb push ROM/ /sdcard/TWRP/BACKUPS
+
 3.进入twrp，从备份中恢复,重启手机
+
 4.安装你需要监控的apk(系统自动把最后一次安装的apk添加进去监控的列表 /data/local/tmp/monitor_package),只能同时监控一个
+
 5./data/data/package_name/下面生成APK调用的算法,只有三种(数据均为JSON编码,字段为BASE64编码):
+
   MessageDigest文件为HASH
+  
   Cipher文件为加密算法
+  
   Mac
   
   
