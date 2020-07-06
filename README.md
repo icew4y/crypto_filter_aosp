@@ -27,7 +27,7 @@ https://drive.google.com/file/d/19G5IXIiww_b5PcQqqiA6lTO6QvnMtQkS/view?usp=shari
 
 2.下载rom解压，adb push ROM/ /sdcard/TWRP/BACKUPS
 
-3.进入twrp，从备份中恢复,重启手机
+3.进入twrp，从备份中恢复,重启手机,然后修改权限 chmod 777 /data/local/tmp/monitor_package
 
 4.安装你需要监控的apk(系统自动把最后一次安装的apk添加进去监控的列表 /data/local/tmp/monitor_package),只能同时监控一个
 
