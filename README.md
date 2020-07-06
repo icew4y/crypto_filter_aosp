@@ -1,12 +1,13 @@
 # crypto_filter_aosp
-监控java层的加密算法一个ROM
+# 监控java层的加密算法一个ROM
+
+基于android6.0.1 编译
+
 下载地址:
-链接：https://pan.baidu.com/s/1WJxiX2nQ7xuY2QH1bz_Otg 
-提取码：m5u4 
 
-用于过滤java层的加密算法一个ROM
+https://drive.google.com/file/d/19G5IXIiww_b5PcQqqiA6lTO6QvnMtQkS/view?usp=sharing
 
-基于android6.0.1
+
 
 适用手机型号Nexus 6P
 
